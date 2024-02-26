@@ -1,26 +1,59 @@
+
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica Neue', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f7f7f7;
+    background-color: #eaeaea;
     color: #333;
 }
+
+header {
+    background-color: #004d99;
+    color: white;
+    padding: 10px 0;
+}
+
 header nav ul {
     list-style-type: none;
     padding: 0;
+    text-align: center;
 }
+
 header nav ul li {
     display: inline;
     margin-right: 20px;
 }
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
 section#welcome {
     text-align: center;
+    padding: 40px 20px;
+    background-image: url('images/football-field.jpg');
+    background-size: cover;
+    color: white;
+}
+
+section#featured-stories {
     padding: 20px;
 }
+
 section#featured-stories article {
     margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
+
 footer {
+    background-color: #333;
+    color: white;
     text-align: center;
     padding: 20px;
+    font-size: 0.8em;
 }
